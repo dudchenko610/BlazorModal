@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34518.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorModal.WebAssemblyApp", "BlazorModal.WebAssemblyApp\BlazorModal.WebAssemblyApp.csproj", "{A7F562CF-3DFB-4D76-87D8-56847FE09B2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorModal.Modal", "BlazorModal.Modal\BlazorModal.Modal.csproj", "{F750232E-2781-4C30-9DD1-CE0B964B8B97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A7F562CF-3DFB-4D76-87D8-56847FE09B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7F562CF-3DFB-4D76-87D8-56847FE09B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7F562CF-3DFB-4D76-87D8-56847FE09B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F750232E-2781-4C30-9DD1-CE0B964B8B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F750232E-2781-4C30-9DD1-CE0B964B8B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F750232E-2781-4C30-9DD1-CE0B964B8B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F750232E-2781-4C30-9DD1-CE0B964B8B97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
