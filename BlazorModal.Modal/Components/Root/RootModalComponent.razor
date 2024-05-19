@@ -1,0 +1,4 @@
+@foreach (var modalModel in ModalService.Modals)
+{
+    <ModalContentComponent @key="@modalModel" ModalModel="modalModel"/>
+}

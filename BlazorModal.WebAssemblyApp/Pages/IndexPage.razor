@@ -1,0 +1,16 @@
+@page "/"
+
+<div class="page">
+    <button @onclick="OnOpenModalInCenterClicked">Open Modal in center of the screen</button>
+    <button @onclick="OnOpenModalWithCoordinatesClicked">Open Modal with coordinates</button>
+</div>
+
+<ModalComponent @bind-Show="_showModal"
+                Width="300px"
+                Height="200px"
+                X="@_xPos"
+                Y="@_yPos">
+    <div class="modal-container">
+        <button @onclick="OnCloseModalClicked">Close</button>
+    </div>
+</ModalComponent>

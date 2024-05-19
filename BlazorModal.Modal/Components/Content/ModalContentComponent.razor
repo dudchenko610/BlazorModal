@@ -1,0 +1,23 @@
+@{
+    var inCenter = InCenter();
+}
+
+<div @onclick:stopPropagation
+     id="@ModalModel.Id"
+     class="@($"bch-modal-content-container {(inCenter ? "bch-central" : "")} {ModalModel.CssClass}")"
+     style="@($"width: {ModalModel.Width}; height: {ModalModel.Height}; z-index: {ModalModel.ZIndex}; " + $"{(!inCenter ? $"left: {ModalModel.X}; top: {ModalModel.Y};" : "")}")">
+    @ModalModel.Fragment
+</div>
+
+<style>
+    .bch-modal-content-container {
+        display: flex;
+        position: absolute;
+    }
+    
+        .bch-modal-content-container.bch-central {
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+</style>
